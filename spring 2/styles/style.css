@@ -8,22 +8,32 @@ justify-content: space-between;}
 
 .menu {display: flex;
 align-items: end;
-font-size: 30px;}
+font-size: 20px;}
 
 .Inicio {text-decoration: none;
-margin: 10px;background-color: hotpink;
+margin: 5px;background-color: hotpink;
 border: solid, black;border-radius: 40px;
 color: red}
 
 .Nosotros {text-decoration: none;
-margin: 10px;background-color: hotpink;
+margin: 5px;background-color: hotpink;
 border: solid, black;border-radius: 40px;
 color: red;}
 
 .Contacto {text-decoration: none;
-margin: 10px;background-color: hotpink;
+margin: 5px;background-color: hotpink;
 border: solid, black;border-radius: 40px;
 color: red;}
+
+.info {text-decoration: none;
+margin: 5px;background-color: hotpink;
+border: solid, black;border-radius: 40px;
+color: red;}
+
+.beneficios {text-decoration: none;
+    margin: 5px;background-color: hotpink;
+    border: solid, black;border-radius: 40px;
+    color: red;}
 
 .content {
     background-image: url(../IceCream1/fondo2.jpg);
@@ -142,3 +152,18 @@ justify-content: space-around;}
     width: 50px;
     border-radius: 45%;
     cursor: pointer;}
+
+.layout {
+    margin: 30px;
+border: 1px,solid,black;
+display: flex;
+flex-direction: column;
+text-align: center;}
+
+.tittles {background-color: fuchsia;}
+
+th, td{border: 1px,solid, black;}
+
+td {padding: 50px;background-color: violet;}
+
+.table1 {border-collapse: collapse;}
